@@ -1,0 +1,18 @@
+a {
+    border-bottom: 2px solid var(--color-eucaplyptus);
+    
+}
+
+button{
+    background: var(--color-eucaplyptus);
+    padding: 1rem;
+}
+
+span{
+    border-bottom: 2px solid var(--color-eucaplyptus);
+}
+
+.phone{
+   position: relative;
+   top: 50px;
+}
