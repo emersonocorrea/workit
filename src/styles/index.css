@@ -13,6 +13,8 @@ header {
 
     border-bottom-left-radius: 100% 10%;
     border-bottom-right-radius: 100% 10%;
+    /* z-index: 10; */
+    position: relative;
     
     
 }
@@ -32,18 +34,28 @@ header {
     gap: 2rem;
 }
 
-.main__container {
+.main__container {    
+    margin-top: -25px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-}
-
-.list__container{
     background: var(--color-ghost-white);
-    margin-top: -5px;   
+      
     
     border-bottom-left-radius: 100% 10%;
     border-bottom-right-radius: 100% 10%;
+    /* z-index: 0; */
+}
+
+.list__container{   
+    max-width: 90%;
     
+}
+
+ul{
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
