@@ -4,32 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <!-- <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/index.css">
-    <link rel="stylesheet" href="src/styles/components.css"> -->
+    <!-- CSS -->    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="src/scripts/tailwind.js" defer></script>
     <link rel="stylesheet" href="src/styles/index.css">
 
     <title>WorKit</title>
 </head>
-<body class="bg-ghostWhite">
-   <header class="flex flex-col items-center bg-purple1000 p-4 gap-10 max-h-96">
-        <nav class="flex flex-row justify-between container items-center max-w-4xl">
+<body class="">
+   <header class="
+                flex flex-col 
+                items-center 
+                bg-purple1000 
+                p-4 
+                gap-10 max-h-96
+                ">
+        <nav class="
+                flex flex-row 
+                justify-between 
+                container 
+                items-center
+                max-w-4xl">
+
             <img src="src/assets/img/logo_1.svg" alt="logo">
-            <a href="#" class="text-white font-parag text-base font-bold border-b-2 border-eucaliptus">Apply for access</a>
+
+            <a href="#" class="
+                            text-white 
+                            font-parag 
+                            text-base 
+                            font-bold 
+                            border-b-2 
+                            border-eucaliptus
+                            hover:text-eucaliptus">
+                        Apply for access</a>
         </nav>
-        <div class="container flex flex-col items-center gap-8 max-w-2xl">
-            <h1 class="text-white text-5xl font-headlineL font-extralight text-center">
-                Data <span class="border-b-2 border-eucaliptus">tailored</span> to your needs.
+        <div class="
+                container 
+                flex flex-col 
+                items-center 
+                gap-8 
+                max-w-2xl">
+            <h1 class="
+                    text-white 
+                    text-5xl 
+                    font-headlineL 
+                    font-extralight 
+                    text-center">
+                Data <span class="
+                            border-b-2 
+                            border-eucaliptus">
+                            tailored</span> to your needs.
             </h1>
-            <button class="bg-eucaliptus p-2 w-32 h-14">Learn more</button>
+            <button class="
+                        bg-eucaliptus
+                        text-purple1000 
+                        p-2 
+                        w-32 
+                        h-14
+                        hover:bg-purple1000
+                        hover:text-eucaliptus">
+                        Learn more</button>
         </div>
-        <div class="container flex items-center flex-col">
-            <img src="src/assets/img/iphoneComp.png" alt="iphone" class="">
+        <div class="
+                container 
+                flex 
+                items-center 
+                flex-col">
+
+            <img src="src/assets/img/iphoneComp.png" alt="iphone" class="z-0">
         </div>
    </header>
+   <main class="
+            container
+            flex
+            items-center
+            flex-col">
+       <div class="
+                container
+                p-4                
+                bg-ghostWhite
+                ">
+            <ul class="
+                    container
+                    flex
+                    flex-wrap">
+                <li class="container max-w-xs">
+                    <p>1</p>
+                    <h3>Actionable insights</h3>
+                    <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+                </li>
+                <li class="container max-w-xs">
+                    <p>2</p>
+                    <h3>Actionable insights</h3>
+                    <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+                </li>
+                <li class="container max-w-xs">
+                    <p>3</p>
+                    <h3>Actionable insights</h3>
+                    <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+                </li>
+            </ul>
+       </div>
+   </main>
 </body>
 </html>

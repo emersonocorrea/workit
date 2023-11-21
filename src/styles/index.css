@@ -5,6 +5,10 @@ header {
     border-bottom-right-radius: 100% 10%;
     /* z-index: 10; */
 }
+
+button:hover{
+    border: 1px solid #44FFA1;
+}
     
     
 
