@@ -9,6 +9,12 @@ header {
 button:hover{
     border: 1px solid #44FFA1;
 }
+
+.number{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
     
     
 
