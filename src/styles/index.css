@@ -12,13 +12,15 @@ button:hover{
 
 .number{
     border: 1px solid black;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .list__container{
     margin-top: -20px;
+    border-bottom-left-radius: 100% 10%;
+    border-bottom-right-radius: 100% 10%;
         
 }
-    
+
 
