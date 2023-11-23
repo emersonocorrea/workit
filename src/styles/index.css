@@ -15,6 +15,10 @@ button:hover{
     width: 30px;
     height: 30px;
 }
-    
+
+.list__container{
+    margin-top: -20px;
+        
+}
     
 
