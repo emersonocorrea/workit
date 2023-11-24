@@ -23,4 +23,9 @@ button:hover{
         
 }
 
+.img__container{
+    margin-bottom: -60px;
+    z-index: 0;
+}
+
 
